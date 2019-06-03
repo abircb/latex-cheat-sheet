@@ -1,1 +1,1 @@
-# latex-cheat-sheet-crx
+# LaTeX Cheat Sheet
