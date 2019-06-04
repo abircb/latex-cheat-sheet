@@ -1,0 +1,86 @@
+  #mainPopup {
+    padding: 10px;
+    font-family: courier new;
+  }
+
+  label[for="ac-head"] {
+    font-size: 2em;
+    margin: 0;
+  }
+
+  .table {
+    width: 100%;
+  }
+
+  table {
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: middle;
+    border-top: 1px solid #DDD;
+    font-size: 0.7em;
+    color: #888;
+  }
+
+  table tbody tr td:first-child {
+    width: 50%;
+    color: #f00;
+    font-size: 0.8em;
+  }
+
+  table tbody tr td:first-child span:first-child {
+    color: #080;
+  }
+
+  table tbody tr td:first-child span:nth-child(2) {
+    color: #008;
+  }
+
+  .ac-container div:nth-child(2) table tbody tr td:first-child {
+    width: 20%;
+  }
+
+  .ac-container input:checked#ac-head ~ article {
+    height: 90px;
+  }
+
+  .ac-container input:checked#ac-0 ~ article {
+    height: 327px;
+  }
+
+  .ac-container input:checked#ac-1 ~ article {
+    height: 471px;
+  }
+
+  .ac-container input:checked#ac-2 ~ article {
+    height: 399px;
+  }
+
+  .ac-container input:checked#ac-3 ~ article {
+    height: 238px;
+  }
+
+  .ac-container input:checked#ac-4 ~ article {
+    height: 425px;
+  }
+
+  .ac-container input:checked#ac-5 ~ article {
+    height: 156px;
+  }
+
+  .ac-container input:checked#ac-6 ~ article {
+    height: 325px;
+  }
+
+  .ac-container input:checked#ac-7 ~ article {
+    height: 207px;
+  }
