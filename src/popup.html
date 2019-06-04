@@ -4,18 +4,43 @@
     <link rel="stylesheet" type="text/css" href="css/accordian.css">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   </head>
   <body>
     <div id="mainPopup">
       <section class="ac-container">
         <div>
-          <input id="ac-1" name="accordion-1" type="checkbox" />
-          <label for="ac-1">LaTeX Cheat Sheet</label>
-          <article class="ac-small">
-            <p>Creator: <a href="https://abircb.github.io/">Abir Bhushan</a></p>
-            <p>Conrtibute: <a href="https://github.com/abircb/latex-cheat-sheet-crx">It's Open Source!</a></p>
+          <input class="rad_section" id="ac-head" name="accordion-1" type="checkbox">
+  				<label for="ac-head">LaTeX Cheat Sheet<i class="fas fa-chevron-down"></i></label>
+          <article class="ac-large">
+            <p>Creator: <a href="https://abircb.github.io/" target="_blank">Abir Bhushan</a></p>
+            <p>Conrtibute: <a href="https://github.com/abircb/latex-cheat-sheet-crx" target="_blank">It's Open Source!</a></p>
           </article>
         </div>
+        <div>
+  				<input class="rad_section" id="ac-0" name="accordion-1" type="checkbox">
+  				<label for="ac-0">A Brief Introduction</label>
+  				<article class="ac-large">
+  					<p>LaTeX is a programming language that can be used for writing documents. It is especially useful for the mathematics and sciences fields due to its ease of writing special symbols and equations while also making them look good. Most textbooks are actually written in LaTeX. Due to the programming aspect, writing documents in LaTeX allows a lot more freedom to format how the document should look. However, it is important to learn how these formatting techniques function in order to know what to expect. </p>
+            <p>In this cheat sheet, we discuss some of the basics for writing documents in LaTeX. We hope it can help you get started with learning this useful language- LaTeX will make writing homework assignments, publications, posters, and many other documents far easier. For academics and others who already use LaTeX, feel free to reccomend your changes to this cheat sheet on <a href="https://github.com/abircb/latex-cheat-sheet-crx" target="_blank">GitHub.</a></p>
+  				</article>
+  			</div>
+        <div>
+  				<input class="rad_section" id="ac-1" name="accordion-1" type="checkbox">
+  				<label for="ac-1">Tempelate</label>
+  				<article class="ac-large">
+  					<table class="table table-responsive">
+  						<tbody>
+  						<tr>
+  							<td >\documentclass{--some class--}<br>\usepackage[utf8]{inputenc}<br><br>\begin{document}<br>&nbsp &nbsp--document body here--<br>\end{document}</td>
+  							<td>Your document must contain at least this</td>
+  						</tr>
+  						</tbody>
+  					</table>
+  				</article>
+  			</div>
       </section>
     </div>
   </body>
