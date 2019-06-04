@@ -65,15 +65,15 @@
   }
 
   .ac-container input:checked#ac-2 ~ article {
-    height: 399px;
+    height: 240px;
   }
 
   .ac-container input:checked#ac-3 ~ article {
-    height: 238px;
+    height: 210px;
   }
 
   .ac-container input:checked#ac-4 ~ article {
-    height: 425px;
+    height: 180px;
   }
 
   .ac-container input:checked#ac-5 ~ article {

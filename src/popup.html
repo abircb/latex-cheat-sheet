@@ -13,35 +13,145 @@
       <section class="ac-container">
         <div>
           <input class="rad_section" id="ac-head" name="accordion-1" type="checkbox">
-  				<label for="ac-head">LaTeX Cheat Sheet<i class="fas fa-chevron-down"></i></label>
+          <label for="ac-head">LaTeX Cheat Sheet<i class="fas fa-chevron-down"></i></label>
           <article class="ac-large">
             <p>Creator: <a href="https://abircb.github.io/" target="_blank">Abir Bhushan</a></p>
             <p>Conrtibute: <a href="https://github.com/abircb/latex-cheat-sheet-crx" target="_blank">It's Open Source!</a></p>
           </article>
         </div>
         <div>
-  				<input class="rad_section" id="ac-0" name="accordion-1" type="checkbox">
-  				<label for="ac-0">A Brief Introduction</label>
-  				<article class="ac-large">
-  					<p>LaTeX is a programming language that can be used for writing documents. It is especially useful for the mathematics and sciences fields due to its ease of writing special symbols and equations while also making them look good. Most textbooks are actually written in LaTeX. Due to the programming aspect, writing documents in LaTeX allows a lot more freedom to format how the document should look. However, it is important to learn how these formatting techniques function in order to know what to expect. </p>
+          <input class="rad_section" id="ac-0" name="accordion-1" type="checkbox">
+          <label for="ac-0">A Brief Introduction</label>
+          <article class="ac-large">
+            <p>LaTeX is a programming language that can be used for writing documents. It is especially useful for the mathematics and sciences fields due to its ease of writing special symbols and equations while also making them look good. Most textbooks are actually written in LaTeX. Due to the programming aspect, writing documents in LaTeX allows a lot more freedom to format how the document should look. However, it is important to learn how these formatting techniques function in order to know what to expect. </p>
             <p>In this cheat sheet, we discuss some of the basics for writing documents in LaTeX. We hope it can help you get started with learning this useful language- LaTeX will make writing homework assignments, publications, posters, and many other documents far easier. For academics and others who already use LaTeX, feel free to reccomend your changes to this cheat sheet on <a href="https://github.com/abircb/latex-cheat-sheet-crx" target="_blank">GitHub.</a></p>
-  				</article>
-  			</div>
+          </article>
+        </div>
         <div>
-  				<input class="rad_section" id="ac-1" name="accordion-1" type="checkbox">
-  				<label for="ac-1">Tempelate</label>
-  				<article class="ac-large">
-  					<table class="table table-responsive">
-  						<tbody>
-  						<tr>
-  							<td >\documentclass{--some class--}<br>\usepackage[utf8]{inputenc}<br><br>\begin{document}<br>&nbsp &nbsp--document body here--<br>\end{document}</td>
-  							<td>Your document must contain at least this</td>
-  						</tr>
-  						</tbody>
-  					</table>
-  				</article>
-  			</div>
+          <input class="rad_section" id="ac-1" name="accordion-1" type="checkbox">
+          <label for="ac-1">Tempelate</label>
+          <article class="ac-large">
+            <table class="table table-responsive">
+              <tbody>
+              <tr>
+                <td >\documentclass{--some class--}<br>\usepackage[utf8]{inputenc}<br><br>\begin{document}<br>&nbsp &nbsp--document body here--<br>\end{document}</td>
+                <td>Your document must contain at least this</td>
+              </tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
+        <div>
+          <input class="rad_section" id="ac-2" name="accordion-1" type="checkbox">
+          <label for="ac-2">Document Classes</label>
+          <article class="ac-large">
+            <table class="table table-responsive">
+              <tbody>
+                <tr>
+                  <td>book</td>
+                  <td>Default is a two-sided book</td>
+                </tr>
+                <tr>
+                  <td>report</td>
+                  <td>For reports with several chapters</td>
+                </tr>
+                <tr>
+                  <td>article</td>
+                  <td>Ideal for articles in scientific journals, presentations, short reports, etc.</td>
+                </tr>
+                <tr>
+                  <td>letter</td>
+                  <td>For writing letters</td>
+                </tr>
+                <tr>
+                  <td>slides</td>
+                  <td>For slides- this class uses a large sans-serif font</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
+        <div>
+          <input class="rad_section" id="ac-3" name="accordion-1" type="checkbox">
+          <label for="ac-3">Packages</label>
+          <article class="ac-large">
+            <table class="table table-responsive">
+              <tbody>
+                <tr>
+                  <td>fullpage</td>
+                  <td>Full page with 1 inch margins</td>
+                </tr>
+                <tr>
+                  <td>anysize</td>
+                  <td>Full page with custom margin size</td>
+                </tr>
+                <tr>
+                  <td>latexsym</td>
+                  <td>Use LaTeX symbol font<td>
+                </tr>
+                <tr>
+                  <td>multicol -- \begin{multicols}{n}</td>
+                  <td>Use n columns</td>
+                </tr>
+                <tr>
+                  <td>\usepackage[option1,option2]{}</td>
+                  <td>To pass several options to a package, each separated by a comma</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
+        <div>
+          <input class="rad_section" id="ac-4" name="accordion-1" type="checkbox">
+          <label for="ac-4">Title</label>
+          <article class="ac-large">
+            <table class="table table-responsive">
+              <tbody>
+                <tr>
+                  <td>\maketitle</td>
+                  <td>A command used to create a title by combining information from 'author', 'title', 'date', and 'thanks' declarations</td>
+                <tr>
+                  <td>\author{}<br>\title{}<br>\date{}<br>\thanks{}</td>
+                  <td>Declations used to "make" a title. All of them are used before the 'begin' command</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
       </section>
     </div>
   </body>
   </html>
+
+  <!--<tbody>
+  <div>
+    <input class="rad_section" id="ac-2" name="accordion-1" type="checkbox">
+    <label for="ac-1">Document Classes</label>
+    <article class="ac-large">
+      <table class="table table-responsive">
+        <tbody>
+          <tr>
+            <td>book</td>
+            <td>Default is two-sided</td>
+          </tr>
+          <tr>
+            <td>report</td>
+            <td>No part divisions</td>
+          </tr>
+          <tr>
+            <td>article</td>
+            <td>No part or chapter divisions</td>
+          </tr>
+          <tr>
+            <td>letter</td>
+            <td>Letter</td>
+          </tr>
+          <tr>
+            <td>slides</td>
+            <td>Large sans-serif font</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </div>
+</tbody> -->
