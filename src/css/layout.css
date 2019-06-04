@@ -1,6 +1,6 @@
   #mainPopup {
     padding: 10px;
-    font-family: courier new;
+    font-family: 'Roboto', sans-serif;
   }
 
   label[for="ac-head"] {
@@ -58,7 +58,7 @@
   }
 
   .ac-container input:checked#ac-1 ~ article {
-    height: 471px;
+    height: 100px;
   }
 
   .ac-container input:checked#ac-2 ~ article {
