@@ -35,7 +35,11 @@
             <table class="table table-responsive">
               <tbody>
               <tr>
-                <td >\documentclass{''some class''}<br>\usepackage[utf8]{inputenc}<br><br>\begin{document}<br>&nbsp &nbsp--document body here--<br>\end{document}</td>
+                <td>\<!--to stop MathJax rendering-->documentclass{''some class''}
+                  <br>\<!--to stop MathJax rendering-->usepackage[utf8]{inputenc}
+                  <br><br>\<!--to stop MathJax rendering-->begin{document}
+                  <br>&nbsp &nbsp--document body here--
+                  <br>\<!--to stop MathJax rendering-->end{document}</td>
                 <td>Your document must contain at least this</td>
               </tr>
               </tbody>
@@ -76,6 +80,7 @@
           <input class="rad_section" id="ac-3" name="accordion-1" type="checkbox">
           <label for="ac-3">Packages</label>
           <article class="ac-large">
+            <p>Like in any programming language, other people have made things that can improve our coding lives. Many of these packages already come with a standard LaTeX install (<a href="https://miktex.org/" target="_blank">Miktex</a> for Windows and <a href="https://www.tug.org/texlive/" target="_blank">TexLive</a> for Linux), and other ones can be downloaded and placed in the same directory as the .tex file. Some common packages to include are:</p>
             <table class="table table-responsive">
               <tbody>
                 <tr>
@@ -109,14 +114,14 @@
             <table class="table table-responsive">
               <tbody>
                 <tr>
-                  <td>\maketitle</td>
+                  <td>\<!--to stop MathJax rendering-->maketitle</td>
                   <td>A command used to create a title by combining information from 'author', 'title', 'date', and 'thanks' declarations</td>
                 <tr>
-                  <td>\author{}<br>\title{}<br>\date{}<br>\thanks{}</td>
+                  <td>\<!--to stop MathJax rendering-->author{}<br>\<!--to stop MathJax rendering-->title{}<br>\<!--to stop MathJax rendering-->date{}<br>\<!--to stop MathJax rendering-->thanks{}</td>
                   <td>Declations used to "make" a title. All of them are used before the 'begin' command</td>
                 </tr>
                 <tr>
-                  <td>\begin{document}<br><br>\title{How to Structure a LaTeX Document}<br>\author{Joe Bloggs}<br>\date{June 2019}<br>\maketitle<br><br>\end{document}</td>
+                  <td>\<!--to stop MathJax rendering-->begin{document}<br><br>\<!--to stop MathJax rendering-->title{How to Structure a LaTeX Document}<br>\<!--to stop MathJax rendering-->author{Joe Bloggs}<br>\<!--to stop MathJax rendering-->date{1^{st}June, 2019}<br>\<!--to stop MathJax rendering-->maketitle<br><br>\<!--to stop MathJax rendering-->end{document}</td>
                   <td>A simple example</td>
                 </tr>
               </tbody>
@@ -273,16 +278,128 @@
           <label for="ac-8">Math Mode</label>
           <article class="ac-large">
             <p>Rule One: Any mathematics at all, even a single character, goes in a mathematical setting. To enter math mode, surround text with $</p>
+            <p>In-line formatting commands:</p>
             <table class="table table-responsive">
               <tbody>
                 <tr>
-                  <td>In-line formatting commands</td>
-                  <td>Result</td>
+                  <td>x^{2}</td>
+                  <td>\(x^2\)</td>
                 </tr>
                 <tr>
-                  <td>Superscript: x^{2}</td>
-                  <td><div lang="latex">\(ax^2 + bx + c = 0\)</div></td>
+                  <td>\frac{x}{y}</td>
+                  <td>\(\frac{x}{y}\)</td>
+                </tr>
+                <tr>
+                  <td>\sqrt[2]{x}</td>
+                  <td>\(\sqrt{x}\)</td>
+                </tr>
+                <tr>
+                  <td>\sum_{k=1}^n</td>
+                  <td>\(\sum_{k=1}^n\)</td>
+                </tr>
+                <tr>
+                  <td>\prod_{k=1}^n</td>
+                  <td>\(\prod_{k=1}^n\)</td>
+                </tr>
               </tbody>
+            </table>
+            <table class="table table-responsive">
+              <tbody>
+                <tr>
+                  <td>\leq</td>
+                  <td>\(\leq\)</td>
+                </tr>
+                <tr>
+                  <td>\geq</td>
+                  <td>\(\geq\)</td>
+                </tr>
+                <tr>
+                  <td>\neq</td>
+                  <td>\(\neq\)</td>
+                </tr>
+                <tr>
+                  <td>=</td>
+                  <td>\(=\)</td>
+                </tr>
+                <tr>
+                  <td>\approx</td>
+                  <td>\(\approx\)</td>
+                </tr>
+                <tr>
+                  <td>\times</td>
+                  <td>\(\times\)</td>
+                </tr>
+                <tr>
+                  <td>\div</td>
+                  <td>\(\div\)</td>
+                </tr>
+                <tr>
+                  <td>\pm</td>
+                  <td>\(\pm\)</td>
+                </tr>
+                <tr>
+                  <td>\infty</td>
+                  <td>\(\infty\)</td>
+                </tr>
+                <tr>
+                  <td>\in</td>
+                  <td>\(\in\)</td>
+                </tr>
+                <tr>
+                  <td>\notin</td>
+                  <td>\(\notin\)</td>
+                </tr>
+                <tr>
+                  <td>\subset</td>
+                  <td>\(\subset\)</td>
+                </tr>
+                <tr>
+                  <td>\subseteq</td>
+                  <td>\(\subseteq\)</td>
+                </tr>
+                <tr>
+                  <td>\cup</td>
+                  <td>\(\cup\)</td>
+                </tr>
+                <tr>
+                  <td>\cap</td>
+                  <td>\(\cap\)</td>
+                </tr>
+                <tr>
+                  <td>\vee</td>
+                  <td>\(\vee\)</td>
+                </tr>
+                <tr>
+                  <td>\wedge</td>
+                  <td>\(\wedge\)</td>
+                </tr>
+                <tr>
+                  <td>\neg</td>
+                  <td>\(\neg\)</td>
+                </tr>
+                <tr>
+                  <td>\exists</td>
+                  <td>\(\exists\)</td>
+                </tr>
+                <tr>
+                  <td>\forall</td>
+                  <td>\(\forall\)</td>
+                </tr>
+                <tr>
+                  <td>\rightarrow</td>
+                  <td>\(\rightarrow\)</td>
+                </tr>
+                <tr>
+                  <td>\Rightarrow</td>
+                  <td>\(\Rightarrow\)</td>
+                </tr>
+                <tr>
+                  <td>\Leftrightarrow</td>
+                  <td>\(\Leftrightarrow\)</td>
+                </tr>
+              </tbody>
+              <p>\<!--to stop MathJax rendering-->(Greek letter) makes the Greek letter. Capitalizing the first letter determines whether or not the Greek letter is capital. For example, \Omega is \(\Omega\) and \alpha is \(\alpha\) Not all of them are available, though. Some have alternative designs such as \phi \(\phi\) and \varphi \(\varphi\)<br>More on this <a href="https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols" target="_blank">here</a></p>
+              <p>Math Mode Symbols:</p>
             </table>
           </article>
         </div>

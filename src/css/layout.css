@@ -61,7 +61,7 @@
   }
 
   .ac-container input:checked#ac-1 ~ article {
-    height: 160px;
+    height: 150px;
   }
 
   .ac-container input:checked#ac-2 ~ article {
@@ -69,7 +69,7 @@
   }
 
   .ac-container input:checked#ac-3 ~ article {
-    height: 210px;
+    height: 330px;
   }
 
   .ac-container input:checked#ac-4 ~ article {
@@ -89,5 +89,5 @@
   }
 
   .ac-container input:checked#ac-8 ~ article {
-    height: 660px;
+    height: 1330px;
   }
