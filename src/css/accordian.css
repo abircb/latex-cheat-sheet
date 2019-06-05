@@ -1,3 +1,21 @@
+  body {
+    background-color: #ffffff;
+  }
+
+  a:link {
+  text-decoration: underline;
+  color: #000000;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
   .ac-container{
     width: 600px;
     margin: 10px auto 30px auto;
@@ -25,15 +43,10 @@
     float: right;
   }
 
-  .ac-container label a{
-    float: right;
-    font-size:0.6em;
-  }
-
   .ac-container label span{
     float: right;
     font-size:0.6em;
-    color:#efeaea;
+    color: #efeaea;
   }
 
   .ac-container label:hover{
