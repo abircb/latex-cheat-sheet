@@ -6,7 +6,13 @@
   label[for="ac-head"] {
     font-size: 2.1em;
     margin: 0;
-    background: #efeaea;
+    background-color: #f0ebe1;
+  }
+
+  label[for="ac-head"]:hover {
+    background-color: #f0ebe1;
+    font-size: 2.1em;
+    margin: 0;
   }
 
   .table {
@@ -34,18 +40,18 @@
 
   table tbody tr td:first-child {
     width: 50%;
-    color: #000;
+    color: #000000;
     font-size: 1.2em;
     font-weight: bold;
     font-family: Consolas;
   }
 
   table tbody tr td:first-child span:first-child {
-    color: #080;
+    color: #000000;
   }
 
   table tbody tr td:first-child span:nth-child(2) {
-    color: #008;
+    color: #000000;
   }
 
   .ac-container div:nth-child(2) table tbody tr td:first-child {
