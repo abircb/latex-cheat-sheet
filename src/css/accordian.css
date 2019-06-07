@@ -1,6 +1,8 @@
   html, body {
-    background-color: #FFFFFF;
-    height: 600px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
   }
 
   a:link {
@@ -19,15 +21,17 @@
 
   .ac-container{
     width: 600px;
-    margin: 0px auto 30px auto;
+    margin: 0;
+    padding: 0;
     text-align: left;
   }
   .ac-container label{
+    border: none;
     padding: 12px 20px;
     position: relative;
     z-index: 20;
     display: block;
-    height: 30px;
+    height: 31.5px;
     cursor: pointer;
     color: #000000;
     font-weight: bold;
@@ -39,6 +43,7 @@
       0px 0px 0px 1px rgba(155,155,155,0.3),
       0px 2px 2px rgba(0,0,0,0.1);
     font-family: 'Roboto', sans-serif;
+    margin: 0;
   }
 
   .ac-container i {

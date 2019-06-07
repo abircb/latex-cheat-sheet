@@ -1,17 +1,20 @@
   #mainPopup {
-    padding: 10px;
+    padding: 0;
+    margin: 0;
   }
 
   label[for="ac-head"] {
     font-size: 2.1em;
     margin: 0;
     background-color: #f0ebe1;
+    border: none;
   }
 
   label[for="ac-head"]:hover {
-    background-color: #f0ebe1;
     font-size: 2.1em;
     margin: 0;
+    background-color: #f0ebe1;
+    border: none;
   }
 
   .table {
