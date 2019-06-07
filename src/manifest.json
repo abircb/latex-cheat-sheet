@@ -14,5 +14,5 @@
     "default_title": "LaTex Cheat Sheet",
     "default_popup": "popup.html"
   },
-  "content_security_policy":"script-src 'self' https://cdnjs.cloudflare.com/; object-src 'self'"  
+  "content_security_policy":"script-src 'self' https://cdnjs.cloudflare.com/; object-src 'self'"
 }

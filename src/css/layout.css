@@ -1,6 +1,5 @@
   #mainPopup {
     padding: 10px;
-    font-family: 'Roboto', sans-serif;
   }
 
   label[for="ac-head"] {
@@ -20,20 +19,16 @@
   }
 
   table {
-    max-width: 100%;
-    background-color: rgba(0, 0, 0, 0);
-  }
-
-  table {
     border-collapse: collapse;
-    border-spacing: 0;
+    border-spacing: 1em .5em;
+    padding: 0 2em 1em 0;
   }
 
   .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
     padding: 8px;
     line-height: 1.428571429;
     vertical-align: middle;
-    border-top: 1px solid #DDD;
+    border-top: 1.2px solid #DDD;
     font-size: 1.2em;
     color: #000000;
   }
