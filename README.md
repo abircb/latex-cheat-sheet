@@ -4,6 +4,8 @@ LaTeX Cheat Sheet is a browser extension for Google Chrome that provides easy ac
 
 Best used as a syntax-guide while TeX'ing on online text-editors, like [Overleaf](https://www.overleaf.com/)
 
+[screenshot](/screenshot.png)
+
 # Usage
 
 The extension is not yet available on the Chrome Web Store, but will be soon.
