@@ -1,22 +1,23 @@
   html, body {
-    background-color: transparent;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #24292e;
   }
 
   a:link {
   text-decoration: underline;
-  color: #000000;
+  color: #FFFFFF;
   }
 
   a:visited {
     text-decoration: none;
-    color: #000000;
+    color: #FFFFFF;
   }
 
   a:hover {
     text-decoration: none;
+    color: #b3bccc;
+
   }
 
   .ac-container{
@@ -33,12 +34,11 @@
     display: block;
     height: 31.5px;
     cursor: pointer;
-    color: #000000;
+    color: #FFFFFF;
     font-weight: bold;
-    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
     line-height: 33px;
     font-size: 20px;
-    background: #ffffff;
+    background-color: #24292e;
     box-shadow:
       0px 0px 0px 1px rgba(155,155,155,0.3),
       0px 2px 2px rgba(0,0,0,0.1);
@@ -57,17 +57,14 @@
   }
 
   .ac-container label:hover{
-    background: #ffffff;
+    background-color: #24292e;
+    color: #b3bccc;
   }
 
   .ac-container input:checked + label,
   .ac-container input:checked + label:hover{
-    background: #ffffff;
-    color: #000000;
-    text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
-    box-shadow:
-      0px 0px 0px 1px rgba(155,155,155,0.3),
-      0px 2px 2px rgba(0,0,0,0.1);
+    background-color: #24292e;
+    color: #b3bccc;
     transition: color 0.2s linear;
 
   }
@@ -79,38 +76,29 @@
     height: 24px;
     right: 13px;
     top: 7px;
+    color: #b3bccc;
   }
   .ac-container input{
     display: none;
   }
 
   .ac-container article{
-    background: #ffffff;
+    background-color: #24292e;
     margin-top: -1px;
     overflow: hidden;
     height: 0px;
     position: relative;
     z-index: 10;
     -webkit-transition: height 0.4s ease-in-out, box-shadow 0.6s linear;
-    -moz-transition: height 0.4s ease-in-out, box-shadow 0.6s linear;
-    -o-transition: height 0.4s ease-in-out, box-shadow 0.6s linear;
-    -ms-transition: height 0.4s ease-in-out, box-shadow 0.6s linear;
-    transition: height 0.4s ease-in-out, box-shadow 0.6s linear;
   }
 
   .ac-container article p{
-    color: #000000;
+    color: #ffffff;
     line-height: 23px;
     font-size: 15px;
     padding: 0 10px;
-    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
   }
 
   .ac-container input:checked ~ article{
     -webkit-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
-    -moz-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
-    -o-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
-    -ms-transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
-    transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
-    box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
   }

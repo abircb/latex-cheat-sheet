@@ -6,14 +6,15 @@
   label[for="ac-head"] {
     font-size: 2.1em;
     margin: 0;
-    background-color: #ffffff;
+    background-color: #24292e;
     border: none;
   }
 
   label[for="ac-head"]:hover {
     font-size: 2.1em;
     margin: 0;
-    background-color: #ffffff;
+    background-color: #24292e;
+    color: #b3bccc;
     border: none;
   }
 
@@ -33,23 +34,23 @@
     vertical-align: middle;
     border-top: 1.2px solid #DDD;
     font-size: 1.2em;
-    color: #000000;
+    color: #FFFFFF;
   }
 
   table tbody tr td:first-child {
     width: 50%;
-    color: #000000;
+    color: #FFFFFF;
     font-size: 1.2em;
     font-weight: bold;
     font-family: Consolas;
   }
 
   table tbody tr td:first-child span:first-child {
-    color: #000000;
+    color: #FFFFFF;
   }
 
   table tbody tr td:first-child span:nth-child(2) {
-    color: #000000;
+    color: #FFFFFF;
   }
 
   .ac-container div:nth-child(2) table tbody tr td:first-child {
@@ -85,15 +86,15 @@
   }
 
   .ac-container input:checked#ac-6 ~ article {
-    height: 260px;
+    height: 280px;
   }
 
   .ac-container input:checked#ac-7 ~ article {
-    height: 860px;
+    height: 880px;
   }
 
   .ac-container input:checked#ac-8 ~ article {
-    height: 1330px;
+    height: 1350px;
   }
 
   .ac-container input:checked#ac-9 ~ article {
