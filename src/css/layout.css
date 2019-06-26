@@ -28,7 +28,7 @@
     padding: 0 2em 1em 0;
   }
 
-  .table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+  .table thead>tr>th, .table tbody>tr>th, .table tfoot>tr>th, .table thead>tr>td, .table tbody>tr>td, .table tfoot>tr>td {
     padding: 8px;
     line-height: 1.428571429;
     vertical-align: middle;
@@ -57,54 +57,54 @@
     width: 50%;
   }
 
-  .ac-container input:checked#ac-head ~ article {
+  .ac-container input:checked#ac-head~article {
     height: 100px;
   }
 
-  .ac-container input:checked#ac-0 ~ article {
+  .ac-container input:checked#ac-0~article {
     height: 375px;
   }
 
-  .ac-container input:checked#ac-1 ~ article {
+  .ac-container input:checked#ac-1~article {
     height: 150px;
   }
 
-  .ac-container input:checked#ac-2 ~ article {
+  .ac-container input:checked#ac-2~article {
     height: 240px;
   }
 
-  .ac-container input:checked#ac-3 ~ article {
+  .ac-container input:checked#ac-3~article {
     height: 510px;
   }
 
-  .ac-container input:checked#ac-4 ~ article {
+  .ac-container input:checked#ac-4~article {
     height: 370px;
   }
 
-  .ac-container input:checked#ac-5 ~ article {
+  .ac-container input:checked#ac-5~article {
     height: 390px;
   }
 
-  .ac-container input:checked#ac-6 ~ article {
+  .ac-container input:checked#ac-6~article {
     height: 280px;
   }
 
-  .ac-container input:checked#ac-7 ~ article {
+  .ac-container input:checked#ac-7~article {
     height: 880px;
   }
 
-  .ac-container input:checked#ac-8 ~ article {
+  .ac-container input:checked#ac-8~article {
     height: 1350px;
   }
 
-  .ac-container input:checked#ac-9 ~ article {
+  .ac-container input:checked#ac-9~article {
     height: 1280px;
   }
 
-  .ac-container input:checked#ac-10 ~ article {
+  .ac-container input:checked#ac-10~article {
     height: 400px;
   }
 
-  .ac-container input:checked#ac-11 ~ article {
+  .ac-container input:checked#ac-11~article {
     height: 100px;
   }

@@ -1,5 +1,6 @@
   <!DOCTYPE html>
   <html>
+
   <head>
     <link rel="stylesheet" type="text/css" href="css/accordian.css">
     <link rel="stylesheet" type="text/css" href="css/layout.css">
@@ -10,6 +11,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
     <script src="js/function.js"></script>
   </head>
+
   <body>
     <div id="mainPopup">
       <section class="ac-container">
@@ -25,9 +27,13 @@
           <input class="rad_section" id="ac-0" name="accordion-1" type="checkbox">
           <label for="ac-0">A Brief Introduction</label>
           <article class="ac-large">
-            <p>\(\LaTeX\) is a programming language that can be used for writing documents. It is especially useful for the mathematics and sciences fields due to its ease of writing special symbols and equations while also making them look good. Most textbooks are actually written in LaTeX. Due to the programming aspect, writing documents in LaTeX allows a lot more freedom to format how the document should look. However, it is important to learn how these formatting techniques function, and how to deal with LaTeX's unfamiliar syntax</p>
-            <p>This is why we created this Chrome Extension, so that it be used as a syntax-guide while writing TeX documents using on-line text-editors, like <a href="https://www.overleaf.com/" target="_blank">Overleaf</a> or a TeX distribution, like <a href="https://www.tug.org/texlive/" target="_blank">Tex Live</a></p>
-            <p>For high-school and university students starting out, LaTeX will make writing homework assignments, publications, posters, and many other documents far easier. For academics and others who already use LaTeX, feel free to reccomend your changes to this cheat sheet on <a href="https://github.com/abircb/latex-cheat-sheet-crx" target="_blank">GitHub</a></p>
+            <p>\(\LaTeX\) is a programming language that can be used for writing documents. It is especially useful for the mathematics and sciences fields due to its ease of writing special symbols and equations while also making them look good.
+              Most textbooks are actually written in LaTeX. Due to the programming aspect, writing documents in LaTeX allows a lot more freedom to format how the document should look. However, it is important to learn how these formatting techniques
+              function, and how to deal with LaTeX's unfamiliar syntax</p>
+            <p>This is why we created this Chrome Extension, so that it be used as a syntax-guide while writing TeX documents using on-line text-editors, like <a href="https://www.overleaf.com/" target="_blank">Overleaf</a> or a TeX distribution,
+              like <a href="https://www.tug.org/texlive/" target="_blank">Tex Live</a></p>
+            <p>For high-school and university students starting out, LaTeX will make writing homework assignments, publications, posters, and many other documents far easier. For academics and others who already use LaTeX, feel free to reccomend your
+              changes to this cheat sheet on <a href="https://github.com/abircb/latex-cheat-sheet-crx" target="_blank">GitHub</a></p>
           </article>
         </div>
         <div>
@@ -36,14 +42,18 @@
           <article class="ac-large">
             <table class="table table-responsive">
               <tbody>
-              <tr>
-                <td>\<!--to stop MathJax rendering-->documentclass{''some class''}
-                  <br>\<!--to stop MathJax rendering-->usepackage[utf8]{inputenc}
-                  <br><br>\<!--to stop MathJax rendering-->begin{document}
-                  <br>&nbsp &nbsp--document body here--
-                  <br>\<!--to stop MathJax rendering-->end{document}</td>
-                <td>Your document must contain at least this</td>
-              </tr>
+                <tr>
+                  <td>\
+                    <!--to stop MathJax rendering-->documentclass{''some class''}
+                    <br>\
+                    <!--to stop MathJax rendering-->usepackage[utf8]{inputenc}
+                    <br><br>\
+                    <!--to stop MathJax rendering-->begin{document}
+                    <br>&nbsp &nbsp--document body here--
+                    <br>\
+                    <!--to stop MathJax rendering-->end{document}</td>
+                  <td>Your document must contain at least this</td>
+                </tr>
               </tbody>
             </table>
           </article>
@@ -82,7 +92,8 @@
           <input class="rad_section" id="ac-3" name="accordion-1" type="checkbox">
           <label for="ac-3">Packages</label>
           <article class="ac-large">
-            <p>Like in any programming language, other people have made things that can improve our coding lives. Many of these packages already come with a standard LaTeX install (<a href="https://miktex.org/" target="_blank">Miktex</a> for Windows and <a href="https://www.tug.org/texlive/" target="_blank">Tex Live</a> for Linux), and other ones can be downloaded and placed in the same directory as the .tex file. Some common packages to include are:</p>
+            <p>Like in any programming language, other people have made things that can improve our coding lives. Many of these packages already come with a standard LaTeX install (<a href="https://miktex.org/" target="_blank">Miktex</a> for Windows
+              and <a href="https://www.tug.org/texlive/" target="_blank">Tex Live</a> for Linux), and other ones can be downloaded and placed in the same directory as the .tex file. Some common packages to include are:</p>
             <table class="table table-responsive">
               <tbody>
                 <tr>
@@ -95,7 +106,8 @@
                 </tr>
                 <tr>
                   <td>latexsym</td>
-                  <td>Use LaTeX symbol font<td>
+                  <td>Use LaTeX symbol font
+                  <td>
                 </tr>
                 <tr>
                   <td>multicol -- \begin{multicols}{n}</td>
@@ -128,14 +140,25 @@
             <table class="table table-responsive">
               <tbody>
                 <tr>
-                  <td>\<!--to stop MathJax rendering-->maketitle</td>
+                  <td>\
+                    <!--to stop MathJax rendering-->maketitle</td>
                   <td>A command used to create a title by combining information from 'author', 'title', 'date', and 'thanks' declarations</td>
                 <tr>
-                  <td>\<!--to stop MathJax rendering-->author{}<br>\<!--to stop MathJax rendering-->title{}<br>\<!--to stop MathJax rendering-->date{}<br>\<!--to stop MathJax rendering-->thanks{}</td>
+                  <td>\
+                    <!--to stop MathJax rendering-->author{}<br>\
+                    <!--to stop MathJax rendering-->title{}<br>\
+                    <!--to stop MathJax rendering-->date{}<br>\
+                    <!--to stop MathJax rendering-->thanks{}</td>
                   <td>Declations used to "make" a title. All of them are used before the 'begin' command</td>
                 </tr>
                 <tr>
-                  <td>\<!--to stop MathJax rendering-->begin{document}<br><br>\<!--to stop MathJax rendering-->title{How to Structure a LaTeX Document}<br>\<!--to stop MathJax rendering-->author{Joe Bloggs}<br>\<!--to stop MathJax rendering-->date{1^{st}June, 2019}<br>\<!--to stop MathJax rendering-->maketitle<br><br>\<!--to stop MathJax rendering-->end{document}</td>
+                  <td>\
+                    <!--to stop MathJax rendering-->begin{document}<br><br>\
+                    <!--to stop MathJax rendering-->title{How to Structure a LaTeX Document}<br>\
+                    <!--to stop MathJax rendering-->author{Joe Bloggs}<br>\
+                    <!--to stop MathJax rendering-->date{1^{st}June, 2019}<br>\
+                    <!--to stop MathJax rendering-->maketitle<br><br>\
+                    <!--to stop MathJax rendering-->end{document}</td>
                   <td>A simple example</td>
                 </tr>
               </tbody>
@@ -197,7 +220,8 @@
           <input class="rad_section" id="ac-6" name="accordion-1" type="checkbox">
           <label for="ac-6">Text Environments</label>
           <article class="ac-large">
-            <p>When a large amount of text is formatted at one time with a command, it is easier to not have to contain it within brackets. This is why some formatting commands have two pairs of commands: <a href="https://www.overleaf.com/learn/latex/Environments#Environments" target="_blank">begin</a> and <a href="https://www.overleaf.com/learn/latex/Environments#Environments" target="_blank">end</a></p>
+            <p>When a large amount of text is formatted at one time with a command, it is easier to not have to contain it within brackets. This is why some formatting commands have two pairs of commands: <a
+                href="https://www.overleaf.com/learn/latex/Environments#Environments" target="_blank">begin</a> and <a href="https://www.overleaf.com/learn/latex/Environments#Environments" target="_blank">end</a></p>
             <table class="table table-responsive">
               <tbody>
                 <tr>
@@ -206,15 +230,18 @@
                 </tr>
                 <tr>
                   <td>\begin{quote}</td>
-                  <td>Indented quotation block<td>
+                  <td>Indented quotation block
+                  <td>
                 </tr>
                 <tr>
                   <td>\begin{quotation}</td>
-                  <td>Like quote, but with indented paragraphs<td>
+                  <td>Like quote, but with indented paragraphs
+                  <td>
                 </tr>
                 <tr>
                   <td>\begin{verse}</td>
-                  <td>Quoation block for verse<td>
+                  <td>Quoation block for verse
+                  <td>
                 </tr>
               </tbody>
             </table>
@@ -261,7 +288,8 @@
                 </tr>
                 <tr>
                   <td>\texttt{}</td>
-                  <td>Typewriter family<td>
+                  <td>Typewriter family
+                  <td>
                 </tr>
                 <tr>
                   <td>\textmd{}</td>
@@ -412,7 +440,9 @@
                   <td>\(\Leftrightarrow\)</td>
                 </tr>
               </tbody>
-              <p>\<!--to stop MathJax rendering-->(Greek letter) makes the Greek letter. Capitalizing the first letter determines whether or not the Greek letter is capital. For example, \Omega is \(\Omega\) and \alpha is \(\alpha\) Not all of them are available, though. Some have alternative designs such as \phi \(\phi\) and \varphi \(\varphi\)<br>More on this <a href="https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols" target="_blank">here</a></p>
+              <p>\
+                <!--to stop MathJax rendering-->(Greek letter) makes the Greek letter. Capitalizing the first letter determines whether or not the Greek letter is capital. For example, \Omega is \(\Omega\) and \alpha is \(\alpha\) Not all of them are
+                available, though. Some have alternative designs such as \phi \(\phi\) and \varphi \(\varphi\)<br>More on this <a href="https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols" target="_blank">here</a></p>
               <p>Math Mode Symbols:</p>
             </table>
           </article>
@@ -421,7 +451,8 @@
           <input class="rad_section" id="ac-9" name="accordion-1" type="checkbox">
           <label for="ac-9">Bibliography management in LaTeX</label>
           <article class="ac-large">
-            <p>When it comes to bibliography management packages, there are three main options in LaTeX: bibtex, natbib, and biblatex. BibLaTeX is a modern program that provides an easier and more flexible interface compared to the other two options. This section explains how to use BibLaTeX to manage and format the bibliography in a LaTeX document. </p>
+            <p>When it comes to bibliography management packages, there are three main options in LaTeX: bibtex, natbib, and biblatex. BibLaTeX is a modern program that provides an easier and more flexible interface compared to the other two options.
+              This section explains how to use BibLaTeX to manage and format the bibliography in a LaTeX document. </p>
             <table class="table table-responsive">
               <tbody>
                 <tr>
@@ -447,15 +478,15 @@
               <tbody>
                 <tr>
                   <td>@article{turing,
-                      <br>author = "Alan Turing",
-                      <br>title = "{Computing Machinery and Intelligence}. ({English})",
-                      <br>journal = "Mind",
-                      <br>volume =  "LIX",
-                      <br>number = "236",
-                      <br>pages = "433--460",
-                      <br>year = "1950",
-                      <br>DOI = "https://doi.org/10.93/mind/"
-                      <br>}
+                    <br>author = "Alan Turing",
+                    <br>title = "{Computing Machinery and Intelligence}. ({English})",
+                    <br>journal = "Mind",
+                    <br>volume = "LIX",
+                    <br>number = "236",
+                    <br>pages = "433--460",
+                    <br>year = "1950",
+                    <br>DOI = "https://doi.org/10.93/mind/"
+                    <br>}
                   </td>
                   <td>A simple example</td>
                 </tr>
@@ -501,7 +532,8 @@
                     <br>\usepackage[english]{babel}
                     <br>\usepackage{biblatex}
                     <br>\addbibresource{references.bib}
-                    <br>\<!--to stop MathJax rendering-->begin{document}
+                    <br>\
+                    <!--to stop MathJax rendering-->begin{document}
                     <br><br>"Computing Machinery and Intelligence" \cite{turing} is a pioneering paper written by Alan Turing on the topic of artificial intelligence.
                     <br><br>\printbibliography
                     <br>\end{document}
@@ -538,10 +570,12 @@
           <input class="rad_section" id="ac-11" name="accordion-1" type="checkbox">
           <label for="ac-11">Tip of the iceberg</label>
           <article class="ac-large">
-            <p>\(\LaTeX\) can do a lot. This cheat sheet will help you do quite a bit as well, and will be enough to create most documents. So keep TeX'ing and while you are on it, feel free to come back to this cheat sheet for any help with syntax</p>
+            <p>\(\LaTeX\) can do a lot. This cheat sheet will help you do quite a bit as well, and will be enough to create most documents. So keep TeX'ing and while you are on it, feel free to come back to this cheat sheet for any help with syntax
+            </p>
           </article>
         </div>
       </section>
     </div>
   </body>
+
   </html>
