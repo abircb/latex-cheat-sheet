@@ -8,7 +8,7 @@ Best used as a syntax-guide while TeX'ing on online text-editors, like [Overleaf
 
 # Usage
 
-The extension is available on the Chrome Web Store. Check it out here.
+The extension is not yet available on the Chrome Web Store - it is pending review.
 
 __To run:__
 <ul>
