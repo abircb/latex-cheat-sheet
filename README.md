@@ -8,10 +8,9 @@ Best used as a syntax-guide while TeX'ing on online text-editors, like [Overleaf
 
 # Usage
 
-The extension is not yet available on the Chrome Web Store, but will be soon.
+The extension is available on the Chrome Web Store. Check it out here.
 
-Until then,
-
+__To run:__
 <ul>
   <li>Open the Extension Management page by navigating to <code>chrome://extensions</code> (The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions)</li>
   <li>Enable Developer Mode by clicking the toggle switch next to Developer mode</li>
